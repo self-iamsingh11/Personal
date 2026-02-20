@@ -34,7 +34,7 @@ export default function HeroSection() {
                     initial="hidden"
                     animate="visible"
                 >
-                    India's No. 1 <br /> <span className="text-accent underline decoration-accent/30">Custom Wall Poster</span> Store
+                    India&apos;s No. 1 <br /> <span className="text-accent underline decoration-accent/30">Custom Wallpaper</span> Store
                 </motion.h1>
 
                 <motion.p
@@ -43,7 +43,7 @@ export default function HeroSection() {
                     initial="hidden"
                     animate="visible"
                 >
-                    Premium quality posters delivered to your doorstep. Transform your walls with Kritanta.
+                    Premium quality wallpapers for your digital screens. Transform your devices with Kritanta.
                 </motion.p>
 
                 <motion.div

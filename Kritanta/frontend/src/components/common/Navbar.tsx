@@ -9,26 +9,21 @@ import { useCartStore } from '@/store/useCartStore';
 const ANNOUNCEMENT_TEXT = "Use Code: KRITANTA for 10% Off | Free Delivery on Prepaid Orders";
 
 const NAV_LINKS = [
-    { name: 'Shop Posters', href: '/shop' },
-    { name: 'Multi Posters', href: '/multi-posters' },
-    { name: 'Mobile Wallpaper', href: '/mobile-wallpaper' },
     { name: 'Desktop Wallpaper', href: '/desktop-wallpaper' },
+    { name: 'Mobile Devices', href: '/mobile-wallpaper' },
     { name: 'Premium Wallpapers', href: '/premium-wallpapers' },
 ];
 
 export default function Navbar() {
     const { toggleCart, items } = useCartStore();
     const [isOpen, setIsOpen] = useState(false);
-    const [scrolled, setScrolled] = useState(false);
     const [announcementHidden, setAnnouncementHidden] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 40) {
-                setScrolled(true);
                 setAnnouncementHidden(true);
             } else {
-                setScrolled(false);
                 setAnnouncementHidden(false);
             }
         };
@@ -63,7 +58,7 @@ export default function Navbar() {
                                 className="nav-link text-[13px] font-bold uppercase tracking-wide text-black hover:text-accent transition-colors flex items-center gap-1 h-full border-b-2 border-transparent hover:border-black"
                             >
                                 {link.name}
-                                {['Shop Posters', 'Multi Posters'].includes(link.name) && (
+                                {['Desktop Wallpaper', 'Mobile Devices'].includes(link.name) && (
                                     <ChevronDown className="w-3 h-3" />
                                 )}
                             </Link>

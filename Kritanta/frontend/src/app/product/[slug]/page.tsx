@@ -1,4 +1,4 @@
-   'use client';
+'use client';
 
 import { use } from 'react';
 import { notFound } from 'next/navigation';
@@ -45,7 +45,6 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
                         {relatedProducts.map((p) => (
                             <ProductCard
                                 key={p.id}
-                                id={p.id}
                                 title={p.title}
                                 price={p.price}
                                 originalPrice={p.originalPrice}

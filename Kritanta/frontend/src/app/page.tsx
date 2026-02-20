@@ -4,7 +4,8 @@ import Navbar from "@/components/common/Navbar";
 import HeroSection from "@/components/common/HeroSection";
 import CategorySection from "@/components/common/CategorySection";
 import PromoGrid from "@/components/common/PromoGrid";
-import ProductGrid from "@/components/common/ProductGrid";
+import YoutubeGrid from "@/components/common/YoutubeGrid";
+import InstagramGrid from "@/components/common/InstagramGrid";
 import ReviewsCarousel from "@/components/common/ReviewsCarousel";
 import WhyChooseUs from "@/components/common/WhyChooseUs";
 import FAQ from "@/components/common/FAQ";
@@ -17,8 +18,8 @@ export default function Home() {
       <HeroSection />
       <CategorySection />
       <PromoGrid />
-      <ProductGrid title="Best Selling" />
-      <ProductGrid title="New Drops" />
+      <YoutubeGrid />
+      <InstagramGrid />
       <WhyChooseUs />
       <ReviewsCarousel />
       <FAQ />

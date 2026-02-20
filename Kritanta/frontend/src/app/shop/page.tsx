@@ -45,7 +45,6 @@ export default function ShopPage() {
                             {PRODUCTS.map((p) => (
                                 <ProductCard
                                     key={p.id}
-                                    id={p.id}
                                     title={p.title}
                                     price={p.price}
                                     originalPrice={p.originalPrice}

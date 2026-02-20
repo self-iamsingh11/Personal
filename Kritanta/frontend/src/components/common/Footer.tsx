@@ -13,7 +13,7 @@ export default function Footer() {
                         KRITANTA
                     </Link>
                     <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                        India's No. 1 Custom Wall Poster Store. Transform your walls with our premium quality posters and custom prints.
+                        India&apos;s No. 1 Custom Wallpaper Store. Transform your screens with our premium quality wallpapers and custom digital prints.
                     </p>
                     <div className="flex gap-4">
                         <Link href="#" className="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center hover:bg-accent transition-colors">
@@ -32,11 +32,11 @@ export default function Footer() {
                 <div>
                     <h3 className="font-bold uppercase tracking-wider mb-6 text-sm text-gray-400">Shop</h3>
                     <ul className="space-y-3 text-sm font-medium">
-                        <li><Link href="/shop" className="hover:text-accent transition-colors">All Posters</Link></li>
+                        <li><Link href="/shop" className="hover:text-accent transition-colors">All Wallpapers</Link></li>
                         <li><Link href="/best-selling" className="hover:text-accent transition-colors">Best Selling</Link></li>
                         <li><Link href="/new-drops" className="hover:text-accent transition-colors">New Drops</Link></li>
                         <li><Link href="/collections" className="hover:text-accent transition-colors">Collections</Link></li>
-                        <li><Link href="/custom" className="hover:text-accent transition-colors">Custom Posters</Link></li>
+                        <li><Link href="/custom" className="hover:text-accent transition-colors">Custom Wallpapers</Link></li>
                     </ul>
                 </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
                     <ul className="space-y-4 text-sm font-medium">
                         <li className="flex gap-3 text-gray-300">
                             <MapPin className="w-5 h-5 flex-shrink-0 text-gray-500" />
-                            <span>123, Poster Street, Koramangala, Bangalore - 560034</span>
+                            <span>123, Wallpaper Street, Koramangala, Bangalore - 560034</span>
                         </li>
                         <li className="flex gap-3 text-gray-300">
                             <Phone className="w-5 h-5 flex-shrink-0 text-gray-500" />

@@ -5,12 +5,12 @@ import { CheckCircle, Truck, RefreshCw, Headphones } from 'lucide-react';
 const FEATURES = [
     {
         icon: <CheckCircle className="w-10 h-10 group-hover:text-accent transition-colors" />,
-        title: 'Premium Quality',
+        title: 'Apple Podcasts',
         desc: 'Museum grade paper & ink'
     },
     {
         icon: <Truck className="w-10 h-10 group-hover:text-accent transition-colors" />,
-        title: 'Free Shipping',
+        title: 'Spotify Podcasts',
         desc: 'On all prepaid orders'
     },
     {
@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
         <section className="bg-gray-50 py-16">
             <div className="container mx-auto px-4 text-center">
                 <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-black mb-12">
-                    Why Choose Us?
+                    Podcasts
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     {FEATURES.map((feat, idx) => (

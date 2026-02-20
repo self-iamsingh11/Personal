@@ -5,7 +5,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const CATEGORIES = [
-    'All Posters',
+    'All Wallpapers',
     'Motivation',
     'Music',
     'Movies',

@@ -5,10 +5,10 @@ import { Plus, Minus } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const FAQS = [
-    { q: "Is it possible to order posters in bulk for my outlet or any other setting?", a: "Yes! We cater to bulk orders, especially for businesses. Simply drop us a message on WhatsApp for special rates and assistance." },
-    { q: "how can I order my own design as a print?", a: "Go to our 'Custom Poster' section, upload your high-quality image, select the size/finish, and place your order!" },
-    { q: "How many days taken for delivery?", a: "Typically 5-7 business days for standard delivery across India." },
-    { q: "How can I check the status of my order?", a: "You can track your order status from the 'My Account' section or use the tracking link sent to your email." },
+    { q: "Is it possible to order wallpapers in bulk for my business or event?", a: "Yes! We cater to bulk orders, especially for businesses. Simply drop us a message on WhatsApp for special rates and assistance." },
+    { q: "How can I order my own design as a wallpaper?", a: "Go to our 'Custom Wallpaper' section, upload your high-quality image, select the format, and download your custom piece!" },
+    { q: "How many days does it take for delivery?", a: "Delivery is instant! Since these are digital wallpapers, you'll be able to download your items immediately after purchase." },
+    { q: "How can I access my downloaded wallpapers?", a: "You can download your purchased items immediately from the success page or access them anytime from your 'My Account' section." },
 ];
 
 export default function FAQ() {

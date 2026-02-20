@@ -11,6 +11,7 @@ export default function CartDrawer() {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setMounted(true);
     }, []);
 
@@ -49,7 +50,7 @@ export default function CartDrawer() {
                         {/* Free Shipping Bar */}
                         <div className="px-6 py-4 bg-gray-50 border-b border-gray-100">
                             {subtotal >= freeShippingThreshold ? (
-                                <p className="text-sm font-bold text-green-600 text-center mb-2">🎉 You've unlocked FREE Shipping!</p>
+                                <p className="text-sm font-bold text-green-600 text-center mb-2">🎉 You&apos;ve unlocked FREE Shipping!</p>
                             ) : (
                                 <p className="text-sm text-gray-600 text-center mb-2">
                                     Add <span className="font-bold text-black">Rs. {(freeShippingThreshold - subtotal).toFixed(2)}</span> for <span className="font-bold">FREE Shipping</span>

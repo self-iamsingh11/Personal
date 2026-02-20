@@ -9,8 +9,8 @@ const questrial = Questrial({
 });
 
 export const metadata: Metadata = {
-  title: "Kritanta | India's No. 1 Custom Wall Poster Store",
-  description: "Premium quality custom wall posters delivered to your doorstep. Shop car posters, devotional, gaming, and more at Kritanta.",
+  title: "Kritanta | India's No. 1 Custom Wallpaper Store",
+  description: "Premium quality custom wallpapers for your devices. Download high-resolution car wallpapers, devotional, gaming, and more at Kritanta.",
 };
 
 import CartDrawer from "@/components/cart/CartDrawer";

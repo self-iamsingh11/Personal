@@ -37,7 +37,7 @@ export default function ReviewsCarousel() {
             <div className="container mx-auto px-4">
                 <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-black">
-                        Verified Reviews
+                        Welcome to the quiz zone
                     </h2>
                     <div className="flex justify-center mt-2 gap-1 text-yellow-400">
                         {'★★★★★'.split('').map((star, i) => (

@@ -22,13 +22,13 @@ export const PRODUCTS: Product[] = [
             '/images/hero/wall_2.jpg', // Mock extra images
             '/images/hero/wall_3.jpg'
         ],
-        description: 'Elevate your workspace or gym with this powerful set of 4 motivational posters featuring David Goggins. Printed on high-quality 300GSM art paper for a premium finish.',
+        description: 'Elevate your workspace or gym with this powerful set of 4 motivational wallpapers featuring David Goggins. High-resolution digital download.',
         category: 'Motivation',
         tags: ['Gym', 'Motivation', 'Set']
     },
     {
         id: '2',
-        title: 'BE THE BEST | Andrew Tate Motivation | Poster',
+        title: 'BE THE BEST | Andrew Tate Motivation | Wallpaper',
         slug: 'be-the-best',
         price: 399,
         originalPrice: 699,
@@ -36,13 +36,13 @@ export const PRODUCTS: Product[] = [
             '/images/products/product_2.jpg',
             '/images/hero/wall_4.jpg'
         ],
-        description: 'Unleash your potential with the "Be The Best" poster. A daily reminder to strive for excellence.',
+        description: 'Unleash your potential with the "Be The Best" wallpaper. A daily reminder to strive for excellence. Perfect for mobile or desktop.',
         category: 'Motivation',
         tags: ['Motivation', 'Success']
     },
     {
         id: '3',
-        title: 'BTS ARMY | K-Pop Collection | Wall Art',
+        title: 'BTS ARMY | K-Pop Collection | Wallpaper',
         slug: 'bts-army',
         price: 499,
         originalPrice: 899,
@@ -50,13 +50,13 @@ export const PRODUCTS: Product[] = [
             '/images/products/product_4.jpg',
             '/images/categories/music.jpg'
         ],
-        description: 'Show your love for BTS with this exclusive Army edition poster. Perfect for any K-Pop fan\'s room.',
+        description: 'Show your love for BTS with this exclusive Army edition wallpaper. Perfect for any K-Pop fan\'s digital devices.',
         category: 'Music',
         tags: ['K-Pop', 'BTS', 'Music']
     },
     {
         id: '4',
-        title: 'LOKI | Marvel Series | Poster',
+        title: 'LOKI | Marvel Series | Wallpaper',
         slug: 'loki-marvel',
         price: 399,
         originalPrice: 599,
@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
     },
     {
         id: '5',
-        title: 'Anime Custom Wall Poster',
+        title: 'Anime Custom Wallpaper',
         slug: 'anime-custom',
         price: 499,
         originalPrice: 899,
@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
             '/images/products/product_0.jpg',
             '/images/categories/anime.jpg'
         ],
-        description: 'Customize your space with your favorite anime characters. High-definition print quality assured.',
+        description: 'Customize your screens with your favorite anime characters. High-definition digital format assured.',
         category: 'Anime',
         tags: ['Anime', 'Custom']
     }

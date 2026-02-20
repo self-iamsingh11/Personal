@@ -13,7 +13,7 @@ const DUMMY_PRODUCTS = [
     },
     {
         id: '2',
-        title: 'BE THE BEST | Andrew Tate Motivation | Poster',
+        title: 'BE THE BEST | Andrew Tate Motivation | Wallpaper',
         price: 399,
         originalPrice: 699,
         image: '/images/products/product_2.jpg',
@@ -29,7 +29,7 @@ const DUMMY_PRODUCTS = [
     },
     {
         id: '4',
-        title: 'LOKI | Marvel Series | Poster',
+        title: 'LOKI | Marvel Series | Wallpaper',
         price: 399,
         originalPrice: 599,
         image: '/images/products/product_7.jpg',
@@ -37,7 +37,7 @@ const DUMMY_PRODUCTS = [
     },
     {
         id: '5',
-        title: 'Anime Custom Wall Poster',
+        title: 'Anime Custom Wallpaper',
         price: 499,
         originalPrice: 899,
         image: '/images/products/product_0.jpg',
@@ -67,7 +67,7 @@ export default function ProductGrid({ title }: ProductGridProps) {
                         <ProductCard
                             key={`${product.id}-${idx}`}
                             {...product}
-                            title={idx % 2 === 0 ? product.title : "Another Cool Poster Title For Testing Length"}
+                            title={idx % 2 === 0 ? product.title : "Another Cool Wallpaper Title For Testing Length"}
                         />
                     ))}
                 </div>

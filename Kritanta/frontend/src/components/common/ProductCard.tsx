@@ -12,7 +12,7 @@ interface ProductCardProps {
     slug: string;
 }
 
-export default function ProductCard({ id, image, title, price, originalPrice, slug }: ProductCardProps) {
+export default function ProductCard({ image, title, price, originalPrice, slug }: Omit<ProductCardProps, 'id'>) {
     return (
         <Link href={`/product/${slug}`} className="group block h-full">
             <div className="relative aspect-[4/5] overflow-hidden bg-gray-100 rounded-sm mb-3">
