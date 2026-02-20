@@ -80,7 +80,6 @@ next-env.d.ts
 # ==============================
 # Project-specific ignores
 # ==============================
-posterized_crawler/
 posterized_crawler/downloaded_images/
 posterized_crawler/venv/
 
@@ -91,4 +90,3 @@ posterized_crawler/venv/
 *.log
 *.tmp
 *.bak
-posterized_crawler
