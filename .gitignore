@@ -81,7 +81,6 @@ next-env.d.ts
 # Project-specific ignores
 # ==============================
 posterized_crawler/venv/
-posterized_crawler/downloaded_images/_Homepage
 posterized_crawler/downloaded_images/All Posters
 # ==============================
 # Misc
