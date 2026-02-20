@@ -1,0 +1,94 @@
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================
+# Editor & IDE files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ==============================
+# Node.js / JavaScript
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ==============================
+# Next.js
+# ==============================
+.next/
+out/
+build/
+.vercel
+
+# ==============================
+# Python
+# ==============================
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+*.egg
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================
+# Build & compiled output
+# ==============================
+*.tsbuildinfo
+next-env.d.ts
+/coverage
+
+# ==============================
+# Project-specific ignores
+# ==============================
+posterized_crawler/
+posterized_crawler/downloaded_images/
+posterized_crawler/venv/
+
+# ==============================
+# Misc
+# ==============================
+*.pem
+*.log
+*.tmp
+*.bak
+posterized_crawler

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MJ Automator Sidebar</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 15px;
+            background-color: #121212;
+            color: #e5e5e5;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        input {
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #444;
+            background-color: #1e1e1e;
+            color: white;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #5b6df2;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            flex: 1;
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            background-color: #5b6df2;
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button:hover:not(:disabled) {
+            background-color: #4a5bd2;
+        }
+
+        button:disabled {
+            background-color: #2a2a2a;
+            color: #555;
+            cursor: not-allowed;
+        }
+
+        #status {
+            font-size: 13px;
+            color: #7ce38b;
+            font-weight: 500;
+            min-height: 20px;
+            margin-bottom: 10px;
+        }
+
+        .log-container {
+            flex: 1;
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 10px;
+            overflow-y: auto;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 12px;
+            color: #bbb;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .log-entry {
+            border-bottom: 1px solid #2a2a2a;
+            padding-bottom: 4px;
+        }
+
+        .log-entry.error {
+            color: #f25b5b;
+        }
+
+        .log-entry.success {
+            color: #7ce38b;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>MJ Automator</h3>
+
+    <div class="controls">
+        <input type="text" id="keyword" placeholder="Enter keyword to search" />
+        <div class="btn-row">
+            <button id="startExtractionBtn">Extract 100</button>
+            <button id="startExecutionBtn" disabled>Run Batch</button>
+        </div>
+        <div class="btn-row" style="margin-top: 5px;">
+            <button id="pauseBtn" disabled style="background-color: #f2a65a; color: #333;">Pause</button>
+            <button id="resumeBtn" disabled style="background-color: #5bf28f; color: #333;">Resume</button>
+        </div>
+    </div>
+
+    <div style="background: #1e1e1e; border: 1px solid #333; padding: 10px; border-radius: 6px; margin-bottom: 15px;">
+        <div style="font-size: 12px; color: #888; margin-bottom: 4px;">Midjourney Fast Hours</div>
+        <div id="fastHoursDisplay" style="font-size: 14px; font-weight: bold; color: #fff;">Searching...</div>
+    </div>
+
+    <div id="status">Ready. Go to Midjourney Explore.</div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+        <span style="font-size: 12px; color: #888;">Execution Logs</span>
+        <button id="clearLogsBtn"
+            style="padding: 4px 8px; font-size: 11px; background-color: #333; color: #ccc; border: 1px solid #444; width: auto; margin: 0; border-radius: 4px;">Clear</button>
+    </div>
+    <div class="log-container" id="logWindow">
+        <div class="log-entry">System ready. Awaiting your command.</div>
+    </div>
+
+    <script src="sidebar.js"></script>
+</body>
+
+</html>
