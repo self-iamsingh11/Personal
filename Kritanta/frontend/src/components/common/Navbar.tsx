@@ -11,10 +11,9 @@ const ANNOUNCEMENT_TEXT = "Use Code: KRITANTA for 10% Off | Free Delivery on Pre
 const NAV_LINKS = [
     { name: 'Shop Posters', href: '/shop' },
     { name: 'Multi Posters', href: '/multi-posters' },
-    { name: 'Retro Prints', href: '/retro' },
-    { name: 'Custom', href: '/custom' },
-    { name: 'Stickers', href: '/stickers' },
-    { name: 'Bulk', href: '/bulk' },
+    { name: 'Mobile Wallpaper', href: '/mobile-wallpaper' },
+    { name: 'Desktop Wallpaper', href: '/desktop-wallpaper' },
+    { name: 'Premium Wallpapers', href: '/premium-wallpapers' },
 ];
 
 export default function Navbar() {
