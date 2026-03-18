@@ -11,8 +11,8 @@ export default function CartDrawer() {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        setMounted(true);
+        const timeout = setTimeout(() => setMounted(true), 0);
+        return () => clearTimeout(timeout);
     }, []);
 
     if (!mounted) return null;
